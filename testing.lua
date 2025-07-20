@@ -3071,7 +3071,7 @@ ImageColor3="Button",
 },
 },{
 b.NewRoundFrame(99,"Squircle",{
-Size=UDim2.new(0,13,0,13),
+Size=UDim2.new(0,2,0,2),
 Position=UDim2.new(1,0,0.5,0),
 AnchorPoint=Vector2.new(0.5,0.5),
 ThemeTag={
@@ -3095,7 +3095,7 @@ VerticalAlignment="Center",
 }),
 k.UIElements.SliderIcon,
 e("TextBox",{
-Size=UDim2.new(0,60,0,0),
+Size=UDim2.new(0,30,0,0),
 TextXAlignment="Left",
 Text=FormatValue(q),
 ThemeTag={
@@ -3103,7 +3103,7 @@ TextColor3="Text"
 },
 TextTransparency=.4,
 AutomaticSize="Y",
-TextSize=15,
+TextSize=5,
 FontFace=Font.new(b.Font,Enum.FontWeight.Medium),
 BackgroundTransparency=1,
 LayoutOrder=-1,
