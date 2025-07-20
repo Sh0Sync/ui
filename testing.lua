@@ -2294,14 +2294,14 @@ TextWrapped=true,
 BackgroundTransparency=1,
 FontFace=Font.new(d.Font,Enum.FontWeight.Medium),
 Text=g,
-TextSize=17,
+TextSize=10,
 ThemeTag={
 TextColor3="Text",
 }
 })
 
 local k=e("UIScale",{
-Scale=.9
+Scale=.5
 })
 
 local n=e("CanvasGroup",{
@@ -2430,8 +2430,8 @@ ImageSize=g.ImageSize or 30,
 Color=g.Color,
 Scalable=g.Scalable,
 Parent=g.Parent,
-UIPadding=14,
-UICorner=14,
+UIPadding=8,
+UICorner=8,
 UIElements={}
 }
 
