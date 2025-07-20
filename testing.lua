@@ -2058,14 +2058,14 @@ local j
 
 local k=e("TextLabel",{
 Text=h.Title,
-TextSize=17,
+TextSize=8,
 FontFace=Font.new(d.Font,Enum.FontWeight.Medium),
 BackgroundTransparency=1,
 AutomaticSize="XY",
 })
 
 local n=e("Frame",{
-Size=UDim2.new(0,36,0,36),
+Size=UDim2.new(0,20,0,20),
 BackgroundTransparency=1,
 Name="Drag",
 },{
